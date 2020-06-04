@@ -15,7 +15,7 @@ const Logo = () => {
     }
   `)
 
-  return <Img fixed={data.mylogo.childImageSharp.fixed} />
+  return <Img fixed={data.mylogo.childImageSharp.fixed} alt="Deryk.co.uk (Home)"/>
 }
 
 export default Logo
