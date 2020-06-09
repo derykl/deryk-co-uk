@@ -28,11 +28,15 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
+          <em>
           © {new Date().getFullYear()} Deryk Lister. All Rights Reserved on
           logos, images and content.  Source code for website under MIT License.
           Full details at
           {` `}
           <a href="https://github.com/derykl/deryk-co-uk">My GitHub Repository</a>.
+          You are very welcome to visit the repository, see how it works, learn
+          from it, build from it, make the web a more performant place.
+          </em>
         </footer>
       </div>
     </>
