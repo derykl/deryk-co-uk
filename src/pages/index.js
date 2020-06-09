@@ -14,7 +14,7 @@ const IndexPage = ({ data }) => (
       style={{float: "left", marginRight: "1rem", marginBottom: "1rem"}}
     />
     <p>
-      I am Deryk Liste,r an IT professional and enthusiast living in Ulverston,
+      I am Deryk Lister, an IT professional and enthusiast living in Ulverston,
       Cumbria, UK.
     </p>
     <p>
@@ -123,6 +123,7 @@ const IndexPage = ({ data }) => (
       address bar; on Android it tends to put a small message at the bottom of
       the screen.  On iOS there's no prompt, but you can go to the share menu
       and add it to the home screen, and see how it opens up like any other app.
+      On Android, the header colour blends into the system's status bar.
       Once I separate all this waffle into pages, they will be navigable through
       the app even if you lose your signal while it's open.
     </p>
